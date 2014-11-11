@@ -1,19 +1,19 @@
 {
-	"name": "name/awesome-plugin",
+	"name": "ritaco/cakephp-datagrid-plugin",
 	"type": "cakephp-plugin",
-	"description": "A skeleton example to create a Cake3 plugin.",
-	"keywords": ["cakephp", "cake3", "plugin", "skeleton", "travis", "scrutinizer", "coveralls"],
-	"homepage": "https://github.com/Name/Awesome-Plugin",
+	"description": "A CakePHP plugin to easy create DataGrids in CakePHP with functionalities as: pagination, sorting, searching etc.",
+	"keywords": ["cakephp", "cake3", "plugin", "DataGrid", "pagination", "table", "helper"],
+	"homepage": "https://github.com/RitaCo/cakephp-datagrid-plugin",
 	"license": "MIT",
 	"support":{
-		"source":"https://github.com/Name/Awesome-Plugin",
-		"issues":"https://github.com/Name/Awesome-Plugin/issues"
+		"source":"https://github.com/RitaCo/cakephp-datagrid-plugin",
+		"issues":"https://github.com/RitaCo/cakephp-datagrid-plugin/issues"
 	},
 	"authors": [
 		{
-			"name": "Name",
-			"email": "email@gmail.com",
-			"homepage": "https://github.com/Name"
+			"name": "saleh souzanchi",
+			"email": "saleh.souzanchi@gmail.com",
+			"homepage": "https://github.com/zoghal"
 		}
 	],
 	"require": {
@@ -26,12 +26,12 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Name\\AwesomePlugin\\": "src"
+			"DataGrid\\": "src"
 		}
 	},
 	"autoload-dev": {
 		"psr-4": {
-			"Name\\AwesomePlugin\\Test\\": "tests"
+			"DataGrid\\": "tests"
 		}
 	}
 
